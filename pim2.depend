@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1637954792 source:c:\users\braga\devlopment\codeblocks\pim2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"cadastros.h"
+	"login.h"
+	"relatorios.h"
+	"protocolocovid.h"
+	"politicaeprivacidade.h"
+
+1637957999 c:\users\braga\devlopment\codeblocks\pim2\cadastros.h
+	<string.h>
+	"structs.h"
+
+1637948340 c:\users\braga\devlopment\codeblocks\pim2\login.h
+
+1637958001 c:\users\braga\devlopment\codeblocks\pim2\relatorios.h
+
+1637948338 c:\users\braga\devlopment\codeblocks\pim2\structs.h
+
+1637964813 c:\users\braga\devlopment\codeblocks\pim2\protocolocovid.h
+
+1637964241 c:\users\braga\devlopment\codeblocks\pim2\politicaeprivacidade.h
+

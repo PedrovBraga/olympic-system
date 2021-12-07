@@ -1,22 +1,22 @@
--Controle de contingente para atendimento aos protocolos de 
-distanciamento criado pelo comite do COVID-19
+	Controle de contingente para atendimento aos protocolos de 
+	distanciamento criado pelo comite do COVID-19
 
-Foi estabelecido medidas de seguranca que serao adotadas para os atletas 
-e membros das delegacoes durante os jogos:
-- O uso de mascara e obrigatorio enquanto nao estiveram nas disputas 
-(essa regra ira variar entre as modalidades esportivas)
-- Evitar contatos desnecessarios entre as pessoas de outras delegacoes e 
-distanciamento social entre os atletas
-- Evitar lugares fechados e com aglomeracoes
-- Usar apenas veiculos olimpicos (transporte publico apenas quando houver 
-necessidade)
-- Todos deverao ser testados duas vezes antes do embarque para Paris e 
-apresentar resultados negativos para infeccao por coronavirus e, ao 
-chegarem a Paris, tambem deverao ser testados e com resultado negativos
-- Serao realizados testes regulares durante as Olimpiadas
-- Caso o resultado de algum destes testes seja positivo ou inconclusivo, 
-o atleta sera imediatamente isolado e fara uma contraprova com duas 
-metodologias diferentes. Se for confirmada a contaminacao, o atleta sera 
-transportado para um local onde cumprira o isolamento e tera a saude 
-monitorada. Sendo o local e o tempo de permanencia definidos pelas 
-autoridades do pais de acordo com a gravidade dos sintomas.
+	Foi estabelecido medidas de seguranca que serao adotadas para os atletas 
+	e membros das delegacoes durante os jogos:
+	- O uso de mascara e obrigatorio enquanto nao estiveram nas disputas 
+	(essa regra ira variar entre as modalidades esportivas)
+	- Evitar contatos desnecessarios entre as pessoas de outras delegacoes e 
+	distanciamento social entre os atletas
+	- Evitar lugares fechados e com aglomeracoes
+	- Usar apenas veiculos olimpicos (transporte publico apenas quando houver 
+	necessidade)
+	- Todos deverao ser testados duas vezes antes do embarque para Paris e 
+	apresentar resultados negativos para infeccao por coronavirus e, ao 
+	chegarem a Paris, tambem deverao ser testados e com resultado negativos
+	- Serao realizados testes regulares durante as Olimpiadas
+	- Caso o resultado de algum destes testes seja positivo ou inconclusivo, 
+	o atleta sera imediatamente isolado e fara uma contraprova com duas 
+	metodologias diferentes. Se for confirmada a contaminacao, o atleta sera 
+	transportado para um local onde cumprira o isolamento e tera a saude 
+	monitorada. Sendo o local e o tempo de permanencia definidos pelas 
+	autoridades do pais de acordo com a gravidade dos sintomas.

@@ -18,6 +18,7 @@ int menuRelatorios(){
         printf("\n 7 - Listar Jogo");
         printf("\n 8 - Listar Pais");
         printf("\n 9 - SAIR");
+        //printf("\n 10 - Alterar dados funcionarios");
 
         printf("\nOpcao: ");
         scanf("%d%*c", &op);
@@ -25,54 +26,72 @@ int menuRelatorios(){
         switch(op){
 
             case 1:
+                printf("\n**********RELATORIO DE VOLUNTARIOS*********\n");
                 listarVoluntario();
                 break;
             case 2:
+                printf("\n************RELATORIO DE MEDICOS***********\n");
                 listarMedicos();
                 break;
             case 3:
+                printf("\n***********RELATORIO DE MEDALHAS***********\n");
                 listarMedalhas();
                 break;
             case 4:
+                printf("\n************RELATORIO DE ATLETAS***********\n");
                 listarAtletas();
                 break;
             case 5:
+                printf("\n*********RELATORIO DE FUNCIONARIOS*********\n");
                 listarFuncionario();
                 break;
             case 6:
+                printf("\n*************RELATORIO DE AGENDA***********\n");
                 listaragendaTreinos();
                 break;
             case 7:
+                printf("\n***********RELATORIO DE CALENDARIO*********\n");
                 listaJogos();
                 break;
             case 8:
+                printf("\n*************RELATORIO DE PAISES***********\n");
                 listaPaises();
                 break;
             case 9:
                 break;
-
+            //case 10:
+            //    menuAlteracoesFuncionarios();
+            //    break;
+            //Ainda nao esta pronto
             default:
                 printf("\n Opcao invalida!\n");
         }
     }
+
+    return 0;
+
 }
 
 
 void listarVoluntario(){
+
   FILE*fp=fopen("Bdvoluntarios.txt","rb");
-  int x=99, i=0, c, cont=0;
+
+  int x=99, c, cont=0;
   struct voluntario vol[x];
+
   while ((c=getc(fp))!=EOF){
+
     fseek(fp,cont*sizeof(struct voluntario),SEEK_SET);
     fread(&vol[cont],sizeof(struct voluntario),1,fp);
-    printf("\n*Listagem de funcionarios*\n");
-    printf("\n");
+
     printf("Nome:%s\n",vol[cont].voluntario.nome);
     printf("Data de nascimento:%d/%d/%d\n",vol[cont].voluntario.dia,vol[cont].voluntario.mes,vol[cont].voluntario.ano);
     printf("Sexo:%c\n",vol[cont].voluntario.sexo);
     printf("Documento:%s\n",vol[cont].voluntario.documento);
 
-    printf("\nEndereco\n");
+    printf("\**** Endereco ****\n");
+
     printf("Rua:%s\n",vol[cont].endereco.rua);
     printf("Numero:%d\n",vol[cont].endereco.numero);
     printf("Complemento:%s\n",vol[cont].endereco.complemento);
@@ -83,15 +102,18 @@ void listarVoluntario(){
 
     printf("Cargo:%s\n",vol[cont].funcao);
     printf("Local de trabalho:%s\n",vol[cont].localAtuacao);
-    printf("\n");
+
     cont++;
+
   }
+
   fclose(fp);
+
 }
 
 void listarMedicos(){
   FILE*fp=fopen("Bdmedicos.txt","rb");
-  int x=99, i=0, c, cont=0;
+  int x=99, c, cont=0;
   struct medicos med[x];
   while ((c=getc(fp))!=EOF){
     fseek(fp,cont*sizeof(struct medicos),SEEK_SET);
@@ -122,15 +144,15 @@ void listarMedicos(){
 
 void listarMedalhas(){
   FILE*fp = fopen("BdMedalhas.txt","rb");
-  int x=99,i=0,c,cont=0;
+  int x=99,c,cont=0;
   struct medalhas medal[x];
   while ((c=getc(fp))!=EOF){
     fseek(fp,cont*sizeof(struct medalhas),SEEK_SET);
     fread(&medal[cont],sizeof(struct medalhas),1,fp);
-    printf("\n*Listagem de medalhas*\n");
-    printf("\n");
-    printf("Entre com a categoria da medalha(ouro, prata, bronze):%s\n",medal[cont]);
-    printf("Quantidade de medalhas:%d\n",medal[cont].quantMedalhas);
+
+    //printf("\n");
+    //printf("Entre com a categoria da medalha(ouro, prata, bronze):%s\n",medal[cont]);
+    //printf("Quantidade de medalhas:%d\n",medal[cont].quantMedalhas);
     cont++;
   }
   fclose(fp);
@@ -140,7 +162,7 @@ void listarAtletas(){
 
   FILE*fp = fopen("Bdatletas.txt","rb");
 
-  int x=99 ,i=0, c, cont=0;
+  int x=99 , c, cont=0;
 
   struct atletas atlet[x];
 
@@ -177,39 +199,45 @@ void listarAtletas(){
 }
 
 void listarFuncionario(){
- FILE*fp = fopen("Bdfuncionario.txt","rb");
- int x=99, i=0, c, cont=0;
-  struct funcionario funci[x];
-  while ((c=getc(fp))!=EOF){
-    fseek(fp,cont*sizeof(struct funcionario),SEEK_SET);
-    fread(&funci[cont],sizeof(struct funcionario),1,fp);
-    printf("\n*Listagem de Funcionarios*\n");
-    printf("\n");
-    printf("Nome:%s\n",funci[cont].func.nome);
-    printf("Data de nascimento:%d/%d/%d\n",funci[cont].func.dia,funci[cont].func.mes,funci[cont].func.ano);
-    printf("Sexo:%c\n",funci[cont].func.sexo);
-    printf("Documento:%s\n",funci[cont].func.documento);
 
-    printf("Endereco\n");
-    printf("Rua:%s\n",funci[cont].endereco.rua);
-    printf("Numero:%d\n",funci[cont].endereco.numero);
-    printf("Complemento:%s\n",funci[cont].endereco.complemento);
-    printf("Bairro:%s\n",funci[cont].endereco.bairro);
-    printf("Cidade:%s\n",funci[cont].endereco.cidade);
-    printf("Estado:%s\n",funci[cont].endereco.estado);
-    printf("Pais:%s\n",funci[cont].endereco.pais);
+    FILE*fp = fopen("Bdfuncionario.txt","rb");
 
-    printf("Salario:%f\n",funci[cont].salario);
-    printf("Funcao:%s\n",funci[cont].funcao);
-    printf("Local de atuacao:%s\n",funci[cont].localAtuacao);
-    cont++;
+    int x=99, c, cont=0;
+    struct funcionario funci[x];
+
+    while ((c=getc(fp))!=EOF){
+        fseek(fp,cont*sizeof(struct funcionario),SEEK_SET);
+        fread(&funci[cont],sizeof(struct funcionario),1,fp);
+
+        printf("Nome:%s\n",funci[cont].func.nome);
+        printf("Data de nascimento:%d/%d/%d\n",funci[cont].func.dia,funci[cont].func.mes,funci[cont].func.ano);
+        printf("Sexo:%c\n",funci[cont].func.sexo);
+        printf("Documento:%s\n",funci[cont].func.documento);
+
+        printf("Endereco\n");
+        printf("Rua:%s\n",funci[cont].endereco.rua);
+        printf("Numero:%d\n",funci[cont].endereco.numero);
+        printf("Complemento:%s\n",funci[cont].endereco.complemento);
+        printf("Bairro:%s\n",funci[cont].endereco.bairro);
+        printf("Cidade:%s\n",funci[cont].endereco.cidade);
+        printf("Estado:%s\n",funci[cont].endereco.estado);
+        printf("Pais:%s\n",funci[cont].endereco.pais);
+
+        printf("Salario:%f\n",funci[cont].salario);
+        printf("Funcao:%s\n",funci[cont].funcao);
+        printf("Local de atuacao:%s\n",funci[cont].localAtuacao);
+
+        cont++;
+
   }
+
   fclose(fp);
+
 }
 
 void listaragendaTreinos(){
   FILE*fp = fopen("BdagendaTreinos.txt","rb");
-  int x=99 ,i=0 ,c ,cont=0;
+  int x=99, c, cont=0;
   struct agendaTreinos atreino[x];
   while ((c=getc(fp))!=EOF){
     fseek(fp,cont*sizeof(struct agendaTreinos),SEEK_SET);
@@ -225,7 +253,6 @@ void listaragendaTreinos(){
     fclose(fp);
 }
 
-
 void listaJogos(){
 
     FILE *fp;
@@ -235,16 +262,24 @@ void listaJogos(){
         printf("Erro ao abrir arquivo");
     }
 
-    char ch[20];
+    struct jogo sjogo[MAX];
+    char c;
+    int cont=0;
 
-    printf("\n*Listagem do Calendario*\n");
-    printf("Local\t\tHora\tData\t\tModalidade\t\tConfronto\n");
+    while ((c=getc(fp))!=EOF){
+        fseek(fp,cont*sizeof(struct jogo),SEEK_SET);
+        fread(&sjogo[cont],sizeof(struct jogo),1,fp);
 
-    while(fgets(ch, 20, fp) != NULL){
-        printf("%s", ch);
+        printf("Local: %s\n", sjogo[cont].local);
+        printf("Hora: %d:%d\n", sjogo[cont].hora, sjogo[cont].minuto);
+        printf("Dia: %d/%d/%d\n", sjogo[cont].dia, sjogo[cont].mes, sjogo[cont].ano);
+        printf("Modalidade: %s\n", sjogo[cont].modalidade);
+        printf("Confronto: %s x %s\n", sjogo[cont].rival_1, sjogo[cont].rival_2);
+
+        cont++;
     }
 
-    printf("\n");
+    fclose(fp);
 
 }
 
@@ -252,18 +287,27 @@ void listaPaises(){
 
     FILE *fp;
 
-    fp = fopen("bdPais.txt", "r");
+    fp = fopen("bdPais.txt", "rb");
     if(fp == NULL){
         printf("Erro ao abrir arquivo");
     }
 
-    char ch[20];
+    struct pais spais[NUMPAIS];
+    int cont=0;
+    char c;
 
-    printf("\n*Listagem de Paises*\n");
-    printf("Nome\t\tOuro\tPrata\tBronze\n");
+    while ((c=getc(fp))!=EOF){
+        fseek(fp,cont*sizeof(struct pais),SEEK_SET);
+        fread(&spais[cont],sizeof(struct pais),1,fp);
 
-    while(fgets(ch, 20, fp) != NULL){
-        printf("%s", ch);
+        printf("Nome: %s\n", spais[cont].nome);
+        printf("Ouro: %d\n", spais[cont].ouro);
+        printf("Prata: %d\n", spais[cont].prata);
+        printf("Bronze: %d\n", spais[cont].bronze);
+
+        cont++;
     }
+
+    fclose(fp);
 
 }

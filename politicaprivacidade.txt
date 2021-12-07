@@ -1,48 +1,48 @@
-POLITICA DE PRIVACIDADE DO SISTEMA OLIMPIADAS PARIS 2024
-- Recolhimento dos dados pessoais dentro do sistema:
-Dados para o cadastro de usuario: Quando o usuario cria uma conta no 
-sistema, esses dados sao os dados de indentificacao basica e e apenas 
-recolhido o nome do usario e a senha. A partir deles que sera feito o 
-login.
-Dados para o cadastro de Voluntarios, Funcionarios, Atletas e Medicos: 
-Contem apenas um dado sensivel, o sexo. Dentre os dados pessoais 
-coletados estao o Nome, Numero do Documento, Data de Nascimento, 
-Endereco, Peso e Altura.
-- Utilizacao dos dados coletados:
-Os dados sao armazenados em arquivos separados e protegidos em uma pasta 
-com senha que apenas os administradores terao o acesso. Usamos alguns dos 
-dados para os relatorios. Apenas pessoas permitidas poderao ter acesso 
-aos relatorios com dados especificos. O tratamento de dados pessoais para 
-finalidade nao previstas nesta Politica de Privacidade somente ocorrera 
-mediante comunicacao previa ao usuario, de modo que os direitos e 
-obrigacao aqui previstos permanecem aplicaveis.
--Tempo que os dados ficarao armazenados:
-Os dados pessoais do usuario e visitante sao armazenados pela plataforma 
-durante o periodo necessario para a prestacao do servico ou o cumprimento 
-das finalidades previstas no presente documento, conforme o disposto no 
-inciso I do artigo 15 da Lei 13.709/18. Os dados podem ser removidos ou 
-anonimizados a pedido do usuario, excetuando os casos em que a lei 
-oferecer outro tratamento.
-- Seguranca dos dados:
-Os dados pessoais armazenados sao tratados com confidencialidade, dentro 
-dos limites legais. Os dados nao serao compartilhados nem transferidos 
-para terceiros. A plataforma nao se exime de responsabilidade por culpa 
-exclusiva de terceiro, como em caso de ataque de hackers ou crackers, ou 
-culpa exclusiva do usuario, como no caso em que ele mesmo transfere seus 
-dados a terceiros. O sistema se compromete a comunicar o usuario em caso 
-de alguma violacao de seguranca dos seus dados pessoais.
-- Consentimento:
-Ao utilizar os servicos e fornecer as informacoes pessoais na plataforma, 
-o usuario esta consentindo com a presente Politica de Privacidade. O 
-usuario, ao cadastrar-se, manifesta conhecer e pode exercitar seus 
-direitos de cancelar seu cadastro, acessar e atualizar seus dados 
-pessoais e garante a veracidade das informacoes por ele disponibilizadas. 
-O usuario tem direito de retirar o seu consentimento a qualquer tempo, 
-para tanto deve entrar em contato atraves do e-mail 
-OlimpiadasParis2024@paris.com.
-- Alteracao Desta Politica de Privacidade:  
-Reservamos o direito de modificar essa Politica de Privacidade a qualquer 
-momento. Quando realizadas alteracoes os usuarios serao notificados. Ao 
-utilizar o servico ou fornecer informacoes pessoais apos eventuais 
-modificacoes, o usuario e visitante demonstra sua concordancia com as 
-novas normas.
+	POLITICA DE PRIVACIDADE DO SISTEMA OLIMPIADAS PARIS 2024
+	- Recolhimento dos dados pessoais dentro do sistema:
+	Dados para o cadastro de usuario: Quando o usuario cria uma conta no 
+	sistema, esses dados sao os dados de indentificacao basica e e apenas 
+	recolhido o nome do usario e a senha. A partir deles que sera feito o 
+	login.
+	Dados para o cadastro de Voluntarios, Funcionarios, Atletas e Medicos: 
+	Contem apenas um dado sensivel, o sexo. Dentre os dados pessoais 
+	coletados estao o Nome, Numero do Documento, Data de Nascimento, 
+	Endereco, Peso e Altura.
+	- Utilizacao dos dados coletados:
+	Os dados sao armazenados em arquivos separados e protegidos em uma pasta 
+	com senha que apenas os administradores terao o acesso. Usamos alguns dos 
+	dados para os relatorios. Apenas pessoas permitidas poderao ter acesso 
+	aos relatorios com dados especificos. O tratamento de dados pessoais para 
+	finalidade nao previstas nesta Politica de Privacidade somente ocorrera 
+	mediante comunicacao previa ao usuario, de modo que os direitos e 
+	obrigacao aqui previstos permanecem aplicaveis.
+	-Tempo que os dados ficarao armazenados:
+	Os dados pessoais do usuario e visitante sao armazenados pela plataforma 
+	durante o periodo necessario para a prestacao do servico ou o cumprimento 
+	das finalidades previstas no presente documento, conforme o disposto no 
+	inciso I do artigo 15 da Lei 13.709/18. Os dados podem ser removidos ou 
+	anonimizados a pedido do usuario, excetuando os casos em que a lei 
+	oferecer outro tratamento.
+	- Seguranca dos dados:
+	Os dados pessoais armazenados sao tratados com confidencialidade, dentro 
+	dos limites legais. Os dados nao serao compartilhados nem transferidos 
+	para terceiros. A plataforma nao se exime de responsabilidade por culpa 
+	exclusiva de terceiro, como em caso de ataque de hackers ou crackers, ou 
+	culpa exclusiva do usuario, como no caso em que ele mesmo transfere seus 
+	dados a terceiros. O sistema se compromete a comunicar o usuario em caso 
+	de alguma violacao de seguranca dos seus dados pessoais.
+	- Consentimento:
+	Ao utilizar os servicos e fornecer as informacoes pessoais na plataforma, 
+	o usuario esta consentindo com a presente Politica de Privacidade. O 
+	usuario, ao cadastrar-se, manifesta conhecer e pode exercitar seus 
+	direitos de cancelar seu cadastro, acessar e atualizar seus dados 
+	pessoais e garante a veracidade das informacoes por ele disponibilizadas. 
+	O usuario tem direito de retirar o seu consentimento a qualquer tempo, 
+	para tanto deve entrar em contato atraves do e-mail 
+	OlimpiadasParis2024@paris.com.
+	- Alteracao Desta Politica de Privacidade:  
+	Reservamos o direito de modificar essa Politica de Privacidade a qualquer 
+	momento. Quando realizadas alteracoes os usuarios serao notificados. Ao 
+	utilizar o servico ou fornecer informacoes pessoais apos eventuais 
+	modificacoes, o usuario e visitante demonstra sua concordancia com as 
+	novas normas.

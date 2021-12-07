@@ -6,23 +6,19 @@ int menu()
 
     do
     {
-        puts("");
-        puts("*********************************************");
-        puts("MENU INICIAL");
-        puts("");
 
+        puts("\n*********************************************");
+        puts("\nMENU INICIAL\n");
 
-
-        puts("O que deseja fazer?");
-        printf("\n 1 - Cadastros\n");
+        puts("O que deseja fazer?\n");
+        printf(" 1 - Cadastros\n");
         printf(" 2 - Visualizar Relatorios\n");
         printf(" 3 - Protocolos COVID-19\n");
         printf(" 4 - Sair\n");
-        puts("");
-        puts("*********************************************");
 
         printf("\nOpcao: ");
         scanf("%d%*c", &op);
+
 
         switch(op)
         {
@@ -48,11 +44,9 @@ int menu()
         }
 
     } while(op > 0);
+
+    return 0;
 }
-
-
-
-
 
 
 void login(struct usuarios_infos usuario_cadastrado)
@@ -63,7 +57,8 @@ void login(struct usuarios_infos usuario_cadastrado)
 
     int total_contas = 0, arq_tamanho = 0, i;
 
-        printf("\n****TELA DE LOGIN**\n");
+        printf("\n***********************************************\n");
+        printf("\nTELA DE LOGIN\n\n");
         memset(&usuario_cadastrado, 0, sizeof(struct usuarios_infos));
         printf("USUARIO: ");
         scanf("%s", usuario_cadastrado.login);
@@ -87,13 +82,13 @@ void login(struct usuarios_infos usuario_cadastrado)
                 printf("Falha ao tentar ler contas\n");
                 fclose(logs);
                 free(lista_de_contas);
-                return 1;
+                return;
             }
             fclose(logs);
             for (i=0; i<total_contas; i++){
                 if(memcmp(&usuario_cadastrado, &lista_de_contas[i], sizeof(struct usuarios_infos)) == 0)
                 {
-                    printf("\n LOGADO COM SUCESSO\n");
+                    printf("\nLOGADO COM SUCESSO\n");
                     menu();
                     break;
                 }

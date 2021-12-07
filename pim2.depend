@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1637954792 source:c:\users\braga\devlopment\codeblocks\pim2\main.c
+1638903489 source:c:\users\braga\devlopment\codeblocks\pim2\main.c
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
@@ -9,17 +9,19 @@
 	"protocolocovid.h"
 	"politicaeprivacidade.h"
 
-1637957999 c:\users\braga\devlopment\codeblocks\pim2\cadastros.h
+1638904944 c:\users\braga\devlopment\codeblocks\pim2\cadastros.h
 	<string.h>
 	"structs.h"
 
-1637948340 c:\users\braga\devlopment\codeblocks\pim2\login.h
+1638903041 c:\users\braga\devlopment\codeblocks\pim2\login.h
 
-1637958001 c:\users\braga\devlopment\codeblocks\pim2\relatorios.h
+1638904944 c:\users\braga\devlopment\codeblocks\pim2\relatorios.h
 
-1637948338 c:\users\braga\devlopment\codeblocks\pim2\structs.h
+1638902230 c:\users\braga\devlopment\codeblocks\pim2\structs.h
 
-1637964813 c:\users\braga\devlopment\codeblocks\pim2\protocolocovid.h
+1638903094 c:\users\braga\devlopment\codeblocks\pim2\protocolocovid.h
 
-1637964241 c:\users\braga\devlopment\codeblocks\pim2\politicaeprivacidade.h
+1638903094 c:\users\braga\devlopment\codeblocks\pim2\politicaeprivacidade.h
+
+1638885182 c:\users\braga\devlopment\codeblocks\pim2\alteracoes.h
 

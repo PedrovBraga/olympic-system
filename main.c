@@ -18,12 +18,11 @@ int main()
 
     struct usuarios_infos usuario_cadastrado;
 
-
-    FILE* logs;
-
     while (op != 4 ){
-        printf("\n****BEM-VINDO AO SISTEMA PARIS 2024***\n");
 
+        printf("***********************************************");
+        printf("\n******* BEM-VINDO AO SISTEMA PARIS 2024 *******\n");
+        printf("***********************************************\n");
         printf("\nCadastre-se caso seja seu primeiro acesso\n");
 
         RETORNAMENU:

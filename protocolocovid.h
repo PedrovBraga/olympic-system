@@ -18,4 +18,6 @@ int protocoloCovid(){
 
     printf("\n\n*************************************\n\n");
 
+    return 0;
+
 }
